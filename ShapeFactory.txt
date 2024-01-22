@@ -1,0 +1,9 @@
+public class ShapeFactory {
+    private static ShapeFactory ins = null;
+    private ShapeFactory(){}
+    public static ShapeFactory getInstance()
+    {
+        if( ins == null) ins = new ShapeFactory();
+        else if()
+    }
+}
